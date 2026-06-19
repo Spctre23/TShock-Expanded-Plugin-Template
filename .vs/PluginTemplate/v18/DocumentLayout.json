@@ -1,18 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\super\\source\\repos\\TShock-Plugin-Template\\",
+  "WorkspaceRootPath": "C:\\Users\\super\\source\\repos\\TShock-Expanded-Plugin-Template\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C9110ACD-9CEF-492D-8DE0-B4FCDDE79C62}|PluginTemplate\\PluginTemplate.csproj|c:\\users\\super\\source\\repos\\tshock-plugin-template\\plugintemplate\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9110ACD-9CEF-492D-8DE0-B4FCDDE79C62}|PluginTemplate\\PluginTemplate.csproj|solutionrelative:plugintemplate\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9110ACD-9CEF-492D-8DE0-B4FCDDE79C62}|PluginTemplate\\PluginTemplate.csproj|c:\\users\\super\\source\\repos\\tshock-expanded-plugin-template\\plugintemplate\\commands\\helpcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9110ACD-9CEF-492D-8DE0-B4FCDDE79C62}|PluginTemplate\\PluginTemplate.csproj|solutionrelative:plugintemplate\\commands\\helpcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9110ACD-9CEF-492D-8DE0-B4FCDDE79C62}|PluginTemplate\\PluginTemplate.csproj|c:\\users\\super\\source\\repos\\tshock-plugin-template\\plugintemplate\\plugintemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C9110ACD-9CEF-492D-8DE0-B4FCDDE79C62}|PluginTemplate\\PluginTemplate.csproj|c:\\users\\super\\source\\repos\\tshock-expanded-plugin-template\\plugintemplate\\commands\\examplecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9110ACD-9CEF-492D-8DE0-B4FCDDE79C62}|PluginTemplate\\PluginTemplate.csproj|solutionrelative:plugintemplate\\commands\\examplecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9110ACD-9CEF-492D-8DE0-B4FCDDE79C62}|PluginTemplate\\PluginTemplate.csproj|c:\\users\\super\\source\\repos\\tshock-expanded-plugin-template\\plugintemplate\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9110ACD-9CEF-492D-8DE0-B4FCDDE79C62}|PluginTemplate\\PluginTemplate.csproj|solutionrelative:plugintemplate\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9110ACD-9CEF-492D-8DE0-B4FCDDE79C62}|PluginTemplate\\PluginTemplate.csproj|c:\\users\\super\\source\\repos\\tshock-expanded-plugin-template\\plugintemplate\\plugintemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9110ACD-9CEF-492D-8DE0-B4FCDDE79C62}|PluginTemplate\\PluginTemplate.csproj|solutionrelative:plugintemplate\\plugintemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9110ACD-9CEF-492D-8DE0-B4FCDDE79C62}|PluginTemplate\\PluginTemplate.csproj|c:\\users\\super\\source\\repos\\tshock-plugin-template\\plugintemplate\\plugintemplate.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{C9110ACD-9CEF-492D-8DE0-B4FCDDE79C62}|PluginTemplate\\PluginTemplate.csproj|solutionrelative:plugintemplate\\plugintemplate.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{C9110ACD-9CEF-492D-8DE0-B4FCDDE79C62}|PluginTemplate\\PluginTemplate.csproj|c:\\users\\super\\source\\repos\\tshock-expanded-plugin-template\\plugintemplate\\commands\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9110ACD-9CEF-492D-8DE0-B4FCDDE79C62}|PluginTemplate\\PluginTemplate.csproj|solutionrelative:plugintemplate\\commands\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9110ACD-9CEF-492D-8DE0-B4FCDDE79C62}|PluginTemplate\\PluginTemplate.csproj|c:\\users\\super\\source\\repos\\tshock-expanded-plugin-template\\plugintemplate\\commands\\commandmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9110ACD-9CEF-492D-8DE0-B4FCDDE79C62}|PluginTemplate\\PluginTemplate.csproj|solutionrelative:plugintemplate\\commands\\commandmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +34,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Config.cs",
+              "DocumentMoniker": "C:\\Users\\super\\source\\repos\\TShock-Expanded-Plugin-Template\\PluginTemplate\\Config.cs",
+              "RelativeDocumentMoniker": "PluginTemplate\\Config.cs",
+              "ToolTip": "C:\\Users\\super\\source\\repos\\TShock-Expanded-Plugin-Template\\PluginTemplate\\Config.cs",
+              "RelativeToolTip": "PluginTemplate\\Config.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T07:56:02.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PluginTemplate.cs",
+              "DocumentMoniker": "C:\\Users\\super\\source\\repos\\TShock-Expanded-Plugin-Template\\PluginTemplate\\PluginTemplate.cs",
+              "RelativeDocumentMoniker": "PluginTemplate\\PluginTemplate.cs",
+              "ToolTip": "C:\\Users\\super\\source\\repos\\TShock-Expanded-Plugin-Template\\PluginTemplate\\PluginTemplate.cs",
+              "RelativeToolTip": "PluginTemplate\\PluginTemplate.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAASwCEAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T07:55:16.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HelpCommand.cs",
+              "DocumentMoniker": "C:\\Users\\super\\source\\repos\\TShock-Expanded-Plugin-Template\\PluginTemplate\\Commands\\HelpCommand.cs",
+              "RelativeDocumentMoniker": "PluginTemplate\\Commands\\HelpCommand.cs",
+              "ToolTip": "C:\\Users\\super\\source\\repos\\TShock-Expanded-Plugin-Template\\PluginTemplate\\Commands\\HelpCommand.cs",
+              "RelativeToolTip": "PluginTemplate\\Commands\\HelpCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T07:55:05.972Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -38,40 +89,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\Users\\super\\source\\repos\\TShock-Plugin-Template\\PluginTemplate\\Properties\\AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "PluginTemplate\\Properties\\AssemblyInfo.cs",
-              "ToolTip": "C:\\Users\\super\\source\\repos\\TShock-Plugin-Template\\PluginTemplate\\Properties\\AssemblyInfo.cs",
-              "RelativeToolTip": "PluginTemplate\\Properties\\AssemblyInfo.cs",
+              "DocumentIndex": 1,
+              "Title": "ExampleCommand.cs",
+              "DocumentMoniker": "C:\\Users\\super\\source\\repos\\TShock-Expanded-Plugin-Template\\PluginTemplate\\Commands\\ExampleCommand.cs",
+              "RelativeDocumentMoniker": "PluginTemplate\\Commands\\ExampleCommand.cs",
+              "ToolTip": "C:\\Users\\super\\source\\repos\\TShock-Expanded-Plugin-Template\\PluginTemplate\\Commands\\ExampleCommand.cs",
+              "RelativeToolTip": "PluginTemplate\\Commands\\ExampleCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-18T11:00:52.633Z",
+              "WhenOpened": "2026-06-19T07:55:03.637Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PluginTemplate.cs",
-              "DocumentMoniker": "C:\\Users\\super\\source\\repos\\TShock-Plugin-Template\\PluginTemplate\\PluginTemplate.cs",
-              "RelativeDocumentMoniker": "PluginTemplate\\PluginTemplate.cs",
-              "ToolTip": "C:\\Users\\super\\source\\repos\\TShock-Plugin-Template\\PluginTemplate\\PluginTemplate.cs",
-              "RelativeToolTip": "PluginTemplate\\PluginTemplate.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAgwAYAAABvAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "CommandManager.cs",
+              "DocumentMoniker": "C:\\Users\\super\\source\\repos\\TShock-Expanded-Plugin-Template\\PluginTemplate\\Commands\\CommandManager.cs",
+              "RelativeDocumentMoniker": "PluginTemplate\\Commands\\CommandManager.cs",
+              "ToolTip": "C:\\Users\\super\\source\\repos\\TShock-Expanded-Plugin-Template\\PluginTemplate\\Commands\\CommandManager.cs",
+              "RelativeToolTip": "PluginTemplate\\Commands\\CommandManager.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAIA1wBcAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-18T10:52:38.082Z",
+              "WhenOpened": "2026-06-19T07:54:36.514Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PluginTemplate",
-              "DocumentMoniker": "C:\\Users\\super\\source\\repos\\TShock-Plugin-Template\\PluginTemplate\\PluginTemplate.csproj",
-              "RelativeDocumentMoniker": "PluginTemplate\\PluginTemplate.csproj",
-              "ToolTip": "C:\\Users\\super\\source\\repos\\TShock-Plugin-Template\\PluginTemplate\\PluginTemplate.csproj",
-              "RelativeToolTip": "PluginTemplate\\PluginTemplate.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-06-18T10:51:01.833Z",
+              "DocumentIndex": 4,
+              "Title": "Command.cs",
+              "DocumentMoniker": "C:\\Users\\super\\source\\repos\\TShock-Expanded-Plugin-Template\\PluginTemplate\\Commands\\Command.cs",
+              "RelativeDocumentMoniker": "PluginTemplate\\Commands\\Command.cs",
+              "ToolTip": "C:\\Users\\super\\source\\repos\\TShock-Expanded-Plugin-Template\\PluginTemplate\\Commands\\Command.cs",
+              "RelativeToolTip": "PluginTemplate\\Commands\\Command.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T07:54:34.491Z",
               "EditorCaption": ""
             }
           ]
