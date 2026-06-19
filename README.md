@@ -1,6 +1,8 @@
-# PluginTemplate
+# TShock Expanded Plugin Template
 
-This repository acts as a baseline plugin to allow you to quickly and easily create new TShock plugins.
+This repository expands on the [official TShock plugin template](https://github.com/TShockResources/PluginTemplate) to include additional infrastructure for configuration files and chat commands.
+
+Supports the latest version of TShock: 6.1.0
 
 # Plugin Development
 
