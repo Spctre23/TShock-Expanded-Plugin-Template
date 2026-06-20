@@ -27,9 +27,4 @@ public class Config
 
         return config;
     }
-
-    public void Write()
-    {
-        File.WriteAllText(configPath, JsonConvert.SerializeObject(this, Formatting.Indented));
-    }
 }
