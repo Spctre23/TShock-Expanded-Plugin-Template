@@ -5,7 +5,7 @@ namespace PluginTemplate;
 
 public class Config
 {
-    private static readonly string configPath = Path.Combine(TShock.SavePath, "templateplugin.json");
+    private static readonly string configPath = Path.Combine(TShock.SavePath, "TemplatePlugin.json");
 
     public bool sampleBooleanSetting = false;
     public int sampleIntSetting = 5;

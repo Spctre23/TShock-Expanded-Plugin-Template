@@ -14,7 +14,7 @@ public class PluginTemplate(Main game) : TerrariaPlugin(game)
     /// <summary>
     /// The name of the plugin.
     /// </summary>
-    public override string Name => "Template Plugin";
+    public override string Name => "TemplatePlugin";
 
     /// <summary>
     /// The version of the plugin in its current state.
