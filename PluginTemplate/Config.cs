@@ -1,30 +1,34 @@
 ﻿using Newtonsoft.Json;
-using TShockAPI;
 
 namespace PluginTemplate;
 
 public class Config
 {
-    private static readonly string configPath = Path.Combine(TShock.SavePath, "TemplatePlugin.json");
+    public static Config Instance { get; private set; } = new();
 
-    public bool sampleBooleanSetting = false;
-    public int sampleIntSetting = 5;
+    public bool SampleBooleanSetting { get; set; } = true;
+    public int SampleIntSetting { get; set; } = 5;
 
-    public static Config Reload()
+    public static void Load(string configPath)
     {
-        Config? config = null;
-
-        if (File.Exists(configPath))
+        if (!File.Exists(configPath))
         {
-            config = JsonConvert.DeserializeObject<Config>(File.ReadAllText(configPath));
+            Instance = new();
+            Instance.Save(configPath);
+            return;
         }
-
-        if (config == null)
+        try
         {
-            config = new Config();
-            File.WriteAllText(configPath, JsonConvert.SerializeObject(config, Formatting.Indented));
+            Instance = JsonConvert.DeserializeObject<Config>(File.ReadAllText(configPath)) ?? new();
         }
+        catch 
+        { 
+            Instance = new(); 
+        };
+    }
 
-        return config;
+    public void Save(string configPath)
+    {
+        File.WriteAllText(configPath, JsonConvert.SerializeObject(this, Formatting.Indented));
     }
 }

@@ -1,5 +1,6 @@
 ﻿using Microsoft.Xna.Framework;
 using TShockAPI;
+using Command = PluginTemplate.Commands.Core.Command;
 
 namespace PluginTemplate.Commands;
 
@@ -7,11 +8,7 @@ public class ExampleCommand : Command
 {
     public override string Name => "example";
 
-    protected override string Description => "An example command."; 
-
-    protected override string Usage => "/example [test]";
-
-    public override List<string> Permissions => ["example"];
+    public override string Description => "An example command.";
 
     public override void Execute(CommandArgs args)
     {
@@ -22,7 +19,7 @@ public class ExampleCommand : Command
         }
         else if (parameters[0] == "test")
         {
-            args.Player.SendMessage("Test message", Color.SkyBlue);
+            args.Player.SendMessage("Test message", Color.Magenta);
         }
         else
         {

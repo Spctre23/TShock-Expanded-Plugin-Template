@@ -1,14 +1,15 @@
-﻿using PluginTemplate.Commands;
+﻿using PluginTemplate.Commands.Core;
 using Terraria;
 using TerrariaApi.Server;
+using TShockAPI;
 using TShockAPI.Hooks;
 
 namespace PluginTemplate;
 
 /// <summary>
-/// The main plugin class should always be decorated with an ApiVersion attribute. The current API Version is 6.1
+/// The main plugin class should always be decorated with an ApiVersion attribute. The current API Version is 2.1
 /// </summary>
-[ApiVersion(6, 1)]
+[ApiVersion(2, 1)]
 public class PluginTemplate(Main game) : TerrariaPlugin(game)
 {
     /// <summary>
@@ -29,32 +30,31 @@ public class PluginTemplate(Main game) : TerrariaPlugin(game)
     /// <summary>
     /// A short, one-line, description of the plugin's purpose.
     /// </summary>
-    public override string Description => "A simple, senseless, plugin used to demonstrate the code structure of a TShock and TS-API plugin.";
+    public override string Description => "A simple demonstration of the TShock and TS-API code structure, with additional examples for command and config management.";
 
-    public static PluginTemplate Instance { get; private set; }
-    public Config? Config { get; private set; }
-    public CommandManager CommandManager { get; private set; } = new();
+    private readonly string _configPath = Path.Combine(TShock.SavePath, "TemplatePlugin.json");
 
     /// <summary>
     /// Performs plugin initialization logic.
-    /// Add want you want to be executed on plugin reload here.
+    /// Add your hooks etc here.
     /// </summary>
     public override void Initialize()
     {
-        Instance = this;
+        Config.Load(_configPath);
 
-        CommandManager.RegisterMasterCommand();
+        CommandManager cmdManager = new();
+        cmdManager.RegisterCommands();
 
         GeneralHooks.ReloadEvent += Reload;
     }
 
     /// <summary>
     /// Performs plugin reload logic.
-    /// Add your hooks, config file read/writes, etc here.
+    /// Add want you want to be executed when the plugin reloads here.
     /// </summary>
     private void Reload(ReloadEventArgs args)
     {
-        Config = Config.Reload();
+        Config.Load(_configPath);
     }
 
     /// <summary>
